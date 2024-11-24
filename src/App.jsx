@@ -10,6 +10,8 @@ import GroupCard from './Components/GroupCard'
 import Profile from './Components/Profile'
 import Friends from './Components/Friends'
 import Activity from './Components/Activity'
+import SignUp from './Components/SignUp'
+import Login from './Components/Login'
 function App() {
   return (
 
@@ -22,8 +24,11 @@ function App() {
         <Route path='/friends' element={<Friends/>}></Route>
         <Route path='/activity' element={<Activity/>}></Route>
         <Route path='/profile' element={<Profile/>}></Route>
-      </Routes>
-  
+        <Route path='/signup' element={<SignUp/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
+      </Routes> 
+
+      
 
       
 

@@ -12,6 +12,8 @@ function Activity() {
         <h1 className='text-white text-2xl md:text-4xl mt-4 md:mt-8 font-bold text-center mb-4'>
           Your Activity
         </h1>
+
+        <h3 className=' text-sm md:text-base text-center mb-4 text-green-400'>Overall , you are owed 613.66 + 76.50</h3>
         <ActivityCard/>
         <Button 
           className='w-fit mx-auto mb-8 md:mb-16' 
